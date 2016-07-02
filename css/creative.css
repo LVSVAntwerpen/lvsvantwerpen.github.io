@@ -179,6 +179,9 @@ aside {
 .bestuurimage {
   background-image: url('../img/bestuur.jpg');
 }
+.ereledenimage {
+  background-image: url('../img/bestuur.jpg');
+}
 header {
   position: relative;
   width: 100%;
