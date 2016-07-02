@@ -1,0 +1,1 @@
+window.___gcfg={lang:'nl',parsetag:'onload'};
