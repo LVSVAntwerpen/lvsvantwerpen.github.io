@@ -451,6 +451,7 @@ img::-moz-selection {
 }
 .schild {
   display: none;
+  margin: auto;
   max-height:400px;
   max-width: 80%;
 }
