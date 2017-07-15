@@ -169,8 +169,6 @@ aside {
   background-image: url('../img/openingsdebat.jpg');
   text-align: center;
   color: white;
-  -webkit-filter: blur(2px) brightness(40%);
-  filter: blur(2px) brightness(40%);
   z-index: -100;
 }
 .geschiedenisimage {
