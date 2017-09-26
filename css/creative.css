@@ -278,6 +278,7 @@ header .header-content .header-content-inner p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
+  box-shadow: 15px 15px 15px rgba(150,150,150,0.5);
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
