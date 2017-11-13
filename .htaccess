@@ -1,0 +1,5 @@
+#lvsvantwerpen.be/<pagename> will display the content of lvsvantwerpen.be/<pagename>.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
