@@ -85,15 +85,15 @@ title: 'Bestuur | LVSV Antwerpen'
 
 
   {% for person in site.data.bestuur %}
-  <section class="whitebackground">
+  <section class={% cycle "section-color": "whitebackground", "bg-primary" %}>
     <div class="container">
-      <div class="card border-primary">
+      <div class="row">
         <div class="col-lg-4 text-center">
           <img src="{{ person.image }}" alt="{{ person.name }}" onerror="this.src='img/bestuur/avatar.png'" class="pasfoto">
         </div>
         <div class="col-lg-8 text-center">
           <h1 class="section-heading">{{ person.name }}</h1>
-          <hr class="primary">
+          <hr class={% cycle "hr-color": "primary", "light" %}>
           <h2>{{ person.position }}</h2>
           {% for email in person.email %}
           <h3><a href="mailto:{{ email }}">{{ email }}</a></h3>
@@ -103,204 +103,6 @@ title: 'Bestuur | LVSV Antwerpen'
     </div>
   </section>
   {% endfor %}
-
-
-  <!-- <section class="whitebackground">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/arthur.jpg" alt="Arthut Schellens" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Arthur Schellens</h1>
-          <hr class="primary">
-          <h2>Voorzitter</h2>
-          <h3><a href="mailto:voorzitter@lvsvantwerpen.be">voorzitter@lvsvantwerpen.be</a></h3>
-          <h3><a href="mailto:arthur@lvsvantwerpen.be">arthur@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/kwinten.jpg" alt="Kwinten Franckaert" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Kwinten Franckaert</h1>
-          <hr class="light">
-          <h2>Ondervoorzitter</h2>
-          <h3><a href="mailto:kwinten@lvsvantwerpen.be" class="light">kwinten@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="whitebackground">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/cedric.jpg" alt="Cedric Van den Wyngaert" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Cedric Van den Wyngaert</h1>
-          <hr class="primary">
-          <h2>Politiek Secretaris</h2>
-          <h3><a href="mailto:cedric@lvsvantwerpen.be">cedric@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/arno.jpg" alt="Arno Baes" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Arno Baes</h1>
-          <hr class="light">
-          <h2>Politiek Secretaris</h2>
-          <h3><a href="mailto:arno@lvsvantwerpen.be" class="light">arno@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="whitebackground">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/thomas.vercauteren.jpg" alt="Thomas Vercauteren" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Thomas Vercauteren</h1>
-          <hr class="primary">
-          <h2>Internationaal Politiek Secretaris</h2>
-          <h3><a href="mailto:thomas.vercauteren@lvsvantwerpen.be">thomas.vercauteren@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/lara.jpg" alt="Lara De Winter" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Lara De Winter</h1>
-          <hr class="light">
-          <h2>Secretaris</h2>
-          <h3><a href="mailto:lara@lvsvantwerpen.be" class="light">lara@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="whitebackground">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/wim.jpg" alt="Wim De Cock" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Wim De Cock</h1>
-          <hr class="primary">
-          <h2>Penningmeester</h2>
-          <h3><a href="mailto:wim@lvsvantwerpen.be">wim@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/dante.jpg" alt="Dante Schrauwen" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Dante Schrauwen</h1>
-          <hr class="light">
-          <h2>Media</h2>
-          <h3><a href="mailto:dante@lvsvantwerpen.be" class="light">dante@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="whitebackground">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/daan.jpg" alt="Daan Van Tongelen" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Daan Van Tongelen</h1>
-          <hr class="primary">
-          <h2>PR & Marketing</h2>
-          <h3><a href="mailto:daan@lvsvantwerpen.be">daan@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/stef.jpg" alt="Stef Soons" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Stef Soons</h1>
-          <hr class="light">
-          <h2>PR & Marketing</h2>
-          <h3><a href="mailto:stef@lvsvantwerpen.be" class="light">stef@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="whitebackground">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/aime.jpg" alt="Aime Schrauwen" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Aime Schrauwen</h1>
-          <hr class="primary">
-          <h2>Organisator</h2>
-          <h3><a href="mailto:aime@lvsvantwerpen.be">aime@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/matthias.jpg" alt="Matthias Olivier" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Matthias Olivier</h1>
-          <hr class="primary">
-          <h2>Feest</h2>
-          <h3><a href="mailto:matthias@lvsvantwerpen.be">matthias@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="whitebackground">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 text-center">
-          <img src="img/bestuur/manon.jpg" alt="Manon Pellegrims" class="pasfoto">
-        </div>
-        <div class="col-lg-8 text-center">
-          <h1 class="section-heading">Manon Pellegrims</h1>
-          <hr class="light">
-          <h2>Pro-Senior</h2>
-          <h3><a href="mailto:manon@lvsvantwerpen.be" class="light">manon@lvsvantwerpen.be</a></h3>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <section class="bg-primary" style="padding: 2px;">
     <!-- Blue line at the bottom -->
