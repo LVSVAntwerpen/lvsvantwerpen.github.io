@@ -1,0 +1,71 @@
+-
+  name: 'Arthur Schellens'
+  position: 'Voorzitter'
+  image: '/img/bestuur/arthur.jpg'
+  email:
+    - 'voorzitter@lvsvantwerpen.be'
+    - 'arthur@lvsvantwerpen.be'
+
+-
+  name: 'Arno Baes'
+  position: 'Hoofdredacteur & Ondervoorzitter'
+  image: '/img/bestuur/arno.jpg'
+  email:
+    - 'arno@lvsvantwerpen.be'
+
+-
+  name: 'Shura Van Dyck'
+  position: 'Secretaris & Media'
+  image: '/img/bestuur/shura.jpg'
+  email:
+    - 'shura@lvsvantwerpen.be'
+
+-
+  name: 'Levi Bresseleers'
+  position: 'Penningmeester & PR'
+  image: '/img/bestuur/.jpg'
+  email:
+    - 'levi@lvsvantwerpen.be'
+
+-
+  name: 'Lara De Winter'
+  position: 'Politiek Secretaris'
+  image: '/img/bestuur/lara.jpg'
+  email:
+    - 'lara@lvsvantwerpen.be'
+
+-
+  name: 'Toon Bullen'
+  position: 'Politiek Secretaris'
+  image: '/img/bestuur/toon.jpg'
+  email:
+    - 'toon@lvsvantwerpen.be'
+
+-
+  name: 'Stef Soons'
+  position: 'Feest & Cantor'
+  image: '/img/bestuur/stef.jpg'
+  email:
+    - 'stef@lvsvantwerpen.be'
+
+-
+  name: 'Kwinten Franckaert'
+  position: 'Bestuurslid'
+  image: '/img/bestuur/kwinten.jpg'
+  email:
+    - 'kwinten@lvsvantwerpen.be'
+
+-
+  name: 'Wim De Cock'
+  position: 'Bestuurslid'
+  image: '/img/bestuur/wim.jpg'
+  email:
+    - 'wim@lvsvantwerpen.be'
+
+-
+  name: 'Thomas Voet'
+  position: 'Bestuurslid'
+  image: '/img/bestuur/thomas.jpg'
+  email:
+    - 'thomas@lvsvantwerpen.be'
+
