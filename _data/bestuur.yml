@@ -1,71 +1,63 @@
 -
-  name: 'Arthur Schellens'
+  name: 'Toon Bullen'
   position: 'Voorzitter'
-  image: '/img/bestuur/arthur.jpg'
+  image: '/img/bestuur/toon.jpg'
   email:
     - 'voorzitter@lvsvantwerpen.be'
-    - 'arthur@lvsvantwerpen.be'
-
--
-  name: 'Arno Baes'
-  position: 'Hoofdredacteur & Ondervoorzitter'
-  image: '/img/bestuur/arno.jpg'
-  email:
-    - 'arno@lvsvantwerpen.be'
+    - 'toon@lvsvantwerpen.be'
 
 -
   name: 'Shura Van Dyck'
-  position: 'Secretaris & Media'
+  position: 'Ondervoorzitter & Politiek Secretaris'
   image: '/img/bestuur/shura.jpg'
   email:
     - 'shura@lvsvantwerpen.be'
 
--
-  name: 'Levi Bresseleers'
-  position: 'Penningmeester & PR'
-  image: '/img/bestuur/levi.jpg'
-  email:
-    - 'levi@lvsvantwerpen.be'
-
--
-  name: 'Lara De Winter'
+- 
+  name: 'Faisel	El Meziane'
   position: 'Politiek Secretaris'
-  image: '/img/bestuur/lara.jpg'
+  image: '/img/bestuur/faisel.jpg'
   email:
-    - 'lara@lvsvantwerpen.be'
+    - 'faisel.elmeziane@lvsvantwerpen.be'
 
 -
-  name: 'Toon Bullen'
-  position: 'Politiek Secretaris'
-  image: '/img/bestuur/toon.jpg'
+  name: 'Philippe Rottée'
+  position: 'Penningmeester'
+  image: '/img/bestuur/philippe.jpg'
   email:
-    - 'toon@lvsvantwerpen.be'
+    - 'philippe.rottee@lvsvantwerpen.be'
 
 -
-  name: 'Stef Soons'
-  position: 'Feest & Cantor'
-  image: '/img/bestuur/stef.jpg'
+  name: 'Dietrich Rosiers'
+  position: 'Secretaris'
+  image: '/img/bestuur/dietrich.jpg'
   email:
-    - 'stef@lvsvantwerpen.be'
+    - 'dietrich.rosiers@lvsvantwerpen.be'
 
 -
-  name: 'Kwinten Franckaert'
-  position: 'Bestuurslid'
-  image: '/img/bestuur/kwinten.jpg'
+  name: 'William	Leyssens'
+  position: 'PR'
+  image: '/img/bestuur/william.jpg'
   email:
-    - 'kwinten@lvsvantwerpen.be'
+    - 'william.leyssens@lvsvantwerpen.be'
+
+-
+  name: 'Lieven Van de Keere'
+  position: 'Hoofdredacteur'
+  image: '/img/bestuur/lieven.jpg'
+  email:
+    - 'lieven.vandekeere@lvsvantwerpen.be'
 
 -
   name: 'Wim De Cock'
-  position: 'Bestuurslid'
+  position: 'Redacteur'
   image: '/img/bestuur/wim.jpg'
   email:
     - 'wim@lvsvantwerpen.be'
 
 -
-  name: 'Thomas Voet'
+  name: 'Viktor Hendrickx'
   position: 'Bestuurslid'
-  image: '/img/bestuur/thomas.jpg'
+  image: '/img/bestuur/viktor.jpg'
   email:
-    - 'thomas@lvsvantwerpen.be'
-
+    - 'viktor.hendrickx@lvsvantwerpen.be'
