@@ -54,10 +54,3 @@
   image: '/img/bestuur/wim.jpg'
   email:
     - 'wim@lvsvantwerpen.be'
-
--
-  name: 'Viktor Hendrickx'
-  position: 'Bestuurslid'
-  image: '/img/bestuur/viktor.jpg'
-  email:
-    - 'viktor.hendrickx@lvsvantwerpen.be'
