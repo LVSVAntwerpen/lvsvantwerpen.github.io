@@ -1,0 +1,15 @@
+title: LVSV Antwerpen
+author: LVSV Antwerpen
+email: info@lvsvantwerpen.be
+description: Website of LVSV Antwerpen
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lvsvantwerpen.be" # the base hostname & protocol for your site, e.g. http://example.com
+logo: /img/favicon.png
+lang: nl_BE
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
