@@ -13,7 +13,6 @@ plugins:
 
 exclude:
   - .gitignore
-  - .htaccess
   - CNAME
   - Gemfile
   - Gemfile.lock
