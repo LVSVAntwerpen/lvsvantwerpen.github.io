@@ -1,84 +1,73 @@
 -
-  name: 'William	Leyssens'
+  name: 'Sander De Schepper'
   position: 'Voorzitter'
-  image: '/img/bestuur/williamleyssens.jpg'
+  image: '/img/bestuur/sanderdeschepper.jpg'
   email:
-    - 'william.leyssens@lvsvantwerpen.be'
+    - 'sander.deschepper@lvsvantwerpen.be'
     - 'voorzitter@lvsvantwerpen.be'
-
 -
-  name: 'Dietrich Rosiers'
-  position: 'Vice-voorzitter & Secretaris'
-  image: '/img/bestuur/dietrichrosiers.jpg'
+  name: 'Camiel van der Heijden'
+  position: 'Ondervoorzitter'
+  image: '/img/bestuur/camielvanderheijden.jpg'
   email:
-    - 'dietrich.rosiers@lvsvantwerpen.be'
-
+    - 'camiel.vanderheijden@lvsvantwerpen.be'
+-
+  name: 'Jelle Steyaert'
+  position: 'Ondervoorzitter'
+  image: '/img/bestuur/jellesteyaert.jpg'
+  email:
+    - 'jelle.steyaert@lvsvantwerpen.be'
 -
   name: 'Lieven Van de Keere'
   position: 'Politiek Secretaris'
   image: '/img/bestuur/lievenvandekeere.jpg'
   email:
     - 'lieven.vandekeere@lvsvantwerpen.be'
-
 -
-  name: 'Wim De Cock'
-  position: 'Politiek Secretaris'
-  image: '/img/bestuur/wimdecock.jpg'
+  name: 'Alec Claessens'
+  position: 'Hoofdverantwoordelijke Activiteiten'
+  image: '/img/bestuur/alecclaessens.jpg'
   email:
-    - 'wim@lvsvantwerpen.be'
-
+    - 'alec.claessens@lvsvantwerpen.be'
+-
+  name: 'Lukas Leyssens'
+  position: 'Activiteiten'
+  image: '/img/bestuur/lukasleyssens.jpg'
+  email:
+    - 'lukas.leyssens@lvsvantwerpen.be'
 -
   name: 'Milan Mertens'
-  position: 'Politiek Secretaris'
+  position: 'Activiteiten & Secretaris'
   image: '/img/bestuur/milanmertens.jpg'
   email:
     - 'milan.mertens@lvsvantwerpen.be'
-
--
-  name: 'Shura Van Dyck'
-  position: 'PR'
-  image: '/img/bestuur/shuravandyck.jpg'
-  email:
-    - 'shura@lvsvantwerpen.be'
-
--
-  name: 'Sander X'
-  position: 'PR'
-  image: '/img/bestuur/sanderx.jpg'
-  email:
-    - 'sander.x@lvsvantwerpen.be'
-
--
-  name: 'Camiel van der Heijden'
-  position: 'PR'
-  image: '/img/bestuur/camielvanderheijden.jpg'
-  email:
-    - 'camiel.vanderheijden@lvsvantwerpen.be'
-
--
-  name: 'Jelle Steyaert'
-  position: 'PR'
-  image: '/img/bestuur/jellesteyaert.jpg'
-  email:
-    - 'jelle.steyaert@lvsvantwerpen.be'
-
--
-  name: 'Mathias Van den Bogaerd'
-  position: 'Partnerships'
-  image: '/img/bestuur/mathiasvandenbogaerd.jpg'
-  email:
-    - 'mathias.vandenbogaerd@lvsvantwerpen.be'
-
 -
   name: 'Quentin Vanslambrouck'
-  position: 'Aspirant & Partnerships'
+  position: 'Hoofdredacteur & Grafisch Design'
   image: '/img/bestuur/quintinvanslambrouck.jpg'
   email:
     - 'quentin.vanslambrouck@lvsvantwerpen.be'
-
 -
-  name: 'Sander De Schepper'
-  position: 'Hoofdredacteur'
-  image: '/img/bestuur/sanderdeschepper.jpg'
+  name: 'Mathias Van den Bogaerd'
+  position: 'PR'
+  image: '/img/bestuur/mathiasvandenbogaerd.jpg'
   email:
-    - 'sander.deschepper@lvsvantwerpen.be'
+    - 'mathias.vandenbogaerd@lvsvantwerpen.be'
+-
+  name: 'Mathieu Boogaerts'
+  position: 'Creative Director'
+  image: '/img/bestuur/mathieuboogaerts.jpg'
+  email:
+    - 'mathieu.boogaerts@lvsvantwerpen.be'
+-
+  name: 'Wim De Cock'
+  position: 'Penningmeester'
+  image: '/img/bestuur/wimdecock.jpg'
+  email:
+    - 'wim@lvsvantwerpen.be'
+-
+  name: 'William	Leyssens'
+  position: 'Pro-Senior'
+  image: '/img/bestuur/williamleyssens.jpg'
+  email:
+    - 'william.leyssens@lvsvantwerpen.be'
